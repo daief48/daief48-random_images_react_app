@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img_div {
+  display: flex;
+  justify-content: center;
+}
+
+.img_div img {
+  width: 200px;
+  height: 150px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.btn button{
+  border: solid 1px red;
+  background: #fa9191;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
